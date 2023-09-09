@@ -36,10 +36,11 @@
 
 body {
     min-height: 100vh;
-    /*: linear-gradient(to bottom, #6890F0, #ffffff);*/
     background-image: url("https://i.pinimg.com/originals/a1/86/a8/a186a8aff83506c70b0b307e3fb062c8.png");
     background-attachment: fixed;
-    background-size: 100% 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 
 header {
@@ -85,6 +86,12 @@ main {
     padding-inline: 1rem;
 }
 
+.nav img {
+    width: 250px;
+    height: auto;
+    max-width: 100%;
+}
+
 .nav-list {
     max-width: 1200px;
     display: flex;
@@ -108,8 +115,6 @@ main {
     position: relative;
     isolation: isolate;
 }
-
-/*#C70039 */
 
 .pokemon-id-back {
     position: absolute;
@@ -158,6 +163,12 @@ main {
 @media screen and (max-width: 450px) {
     .nav {
         flex-direction: column;
+    }
+
+    .body {
+        background-attachment: fixed repeat-x 0 0;
+        ;
+        background-size: contain;
     }
 
 }
