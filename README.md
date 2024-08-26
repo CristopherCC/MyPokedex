@@ -1,1 +1,1 @@
-# [MyPokedex](https://mypokedex.pages.dev/))
+# [MyPokedex](https://mypokedex.pages.dev/)
